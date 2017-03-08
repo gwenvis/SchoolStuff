@@ -1,0 +1,75 @@
+/*
+ * Dit is de custom style sheet van jouw website
+ *
+ */
+
+body {
+	
+	font-family: "Courier New";
+	background-color: black;
+	color: lawngreen;
+}
+
+a {
+	
+	text-decoration: none;
+}
+
+.aligncenter, div.aligncenter {
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+
+	float: left;
+}
+
+.alignright {
+
+	float: right;
+}
+
+.wrap {
+
+	clear: both;
+	margin:0 auto;
+	width:860px;
+}
+
+hr {
+	border-color: deeppink;
+}
+
+nav {
+
+	width:860px;
+	height: 20px;
+}
+
+nav ul {
+	
+	padding-left: 0px;
+	list-style: none;
+}
+
+
+nav ul li a {
+	
+	padding-right: 30px;
+}
+
+nav a {
+	
+	display: block;
+	float: left;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: aqua;
+}
+
+footer {
+
+	color: yellow;
+}
